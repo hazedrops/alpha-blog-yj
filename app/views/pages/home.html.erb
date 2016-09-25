@@ -4,20 +4,22 @@
   <title>Practicing Pages App</title>
 
   <style>
-  body {
-      background: url("https://images.unsplash.com/photo-1450107579224-2d9b2bf1adc8?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=1f5177a75cd18850141e8c5594950641&quot");
+  /*body {
+     background: url("https://images.unsplash.com/photo-1450107579224-2d9b2bf1adc8?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=1f5177a75cd18850141e8c5594950641&quot");
       background-size: 100% 800px;
       background-repeat: no-repeat;
-      padding-top: 200px;
+      /*padding-top: 200px;
       padding-left: 40px;
-  }
+  }*/
   </style>
 </head>
 
 <body>
-<h1>Hello, This is YOON'S Ruby on Rails Practice Page</h1>
 
-<%= link_to "Alpha Blog", articles_path %> | <%= link_to "About", about_path %>
+<div class="center jumbotron">
+  <h1>Alpha Blog</h1>
+  <%= link_to "Sign up now", "#", class: "btn btn-danger btn-lg btn-xlarge" %>
+</div>
 
 </body>
 </html>
