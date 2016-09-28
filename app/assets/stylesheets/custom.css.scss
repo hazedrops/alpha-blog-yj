@@ -27,7 +27,7 @@ $navbar-default-bg: #E9AE4D;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 550px;
+  height: 500px;
 }
 
 .jumbotron h1 {
@@ -65,6 +65,10 @@ $navbar-default-bg: #E9AE4D;
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.list-title {
+  color: #E9AE4D;
 }
 
 footer {
